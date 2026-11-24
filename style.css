@@ -5,7 +5,7 @@
   --ink: #2a1f1a;
   --ink-soft: #5c4a3e;
   --clay: #b5532f;
-  --indigo: #1f3a5f;
+  --indigo: #1f5a7a;
   --saffron: #d9a441;
   --radius: 18px;
   --shadow: 0 22px 44px -20px rgba(42, 31, 26, .5);
@@ -46,6 +46,7 @@ a { color: inherit; text-decoration: none; }
 .hero { display: grid; grid-template-columns: 1fr 1.1fr; gap: 2rem; align-items: center; padding: 4rem 6vw 5rem; min-height: calc(100vh - 64px); }
 .kicker { font-family: "Aref Ruqaa", serif; color: var(--clay); font-size: 1.5rem; }
 .hero h1 { font-size: clamp(2.4rem, 5.5vw, 4.2rem); line-height: 1.25; font-weight: 800; }
+.sub-h { font-size: clamp(1.2rem, 2.4vw, 1.6rem); font-weight: 700; color: var(--indigo); margin-top: .4rem; }
 .lead { font-size: 1.18rem; color: var(--ink-soft); margin: 1.2rem 0 2rem; max-width: 44ch; }
 
 /* مجموعة اللقطات ثلاثية الأبعاد */
